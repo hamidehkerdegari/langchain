@@ -32,7 +32,7 @@ LangChain is a framework for building agents and LLM-powered applications. It he
 uv add langchain
 ```
 
-```python
+```python3
 from langchain.chat_models import init_chat_model
 
 model = init_chat_model("openai:gpt-5.5")
